@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-container {
+    position: relative;
+}
+
+.background-circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.7;
+}
+
+.circle-1 {
+    background-color: #ff5733;
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 10%;
+}
+
+.circle-2 {
+    background-color: #8e8e8e;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 60%;
+}
+
+.login-box {
+    position: relative;
+    width: 400px;
+    padding: 2rem;
+    background: #000000;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-box h2 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.new-login h3, .login-form h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.create-account {
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-icons span {
+    font-size: 24px;
+    margin: 0 0.5rem;
+}
+
+.login-form label {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.toggle-visiblity {
+    cursor: pointer;
+}
+
+.enter {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
