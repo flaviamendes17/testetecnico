@@ -114,11 +114,18 @@ left: 50%;
     position: relative;
 }
 
+.right h1{
+    color: #000000;
+}
+
+.logar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
 .logar button{
     color: #181515;
-    margin-bottom: 1rem;
-    margin-left: 20rem;
-    margin-bottom: 20rem;
     padding: 1rem 2rem;
     border: none;
     border-radius: 50px;
@@ -128,6 +135,15 @@ left: 50%;
 
 .logar button:hover{
     background-color: #f3f3f3;
+}
+
+.entrar button{
+    color: #181515;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #dad9d9;
 }
 
 img{
@@ -144,6 +160,7 @@ img{
     align-items: center;
     flex-direction: column;
     gap: 0.5rem;
+    
 
    
 }
