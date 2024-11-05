@@ -65,98 +65,85 @@ left: 50%;
     left: 45%;
 }
 
-
-
-.login-box {
+.container{
+    width: 50rem;
+    height: 30rem;
     display: flex;
-    flex-direction: row;
+}
+
+.left{
+    background-color: #00000025;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 15px 0 0 15px;
     position: relative;
-    width: 400px;
-    padding: 2rem;
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(15px);
-    border-radius: 15px;
-    box-shadow: -10px 10px 3px rgba(0, 0, 0, 0.2);
-    text-align: center;
 }
 
-.login-box h2 {
-    font-size: 24px;
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-.new-login{
-    width: 50%;
+.left h1{
+    color: #000000;
+    margin-bottom: 10rem;
 }
 
-.new-login p {
-    font-size: 25px;
-    color: #333;
-    margin-top: 2%;
-}
-.new-login h3{
-    font-size: 20px;
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    margin-top: 4rem;
-}
-.login-form{
-    width: 50%;
-}
-
-.new-login h3, .login-form h3 {
-    font-size: 20px;
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-.create-account {
-    padding: 0.5rem 1rem;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+.left button{
+    background-color: #dad9d9;
+    color: #000000;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
     cursor: pointer;
 }
 
-
-
-.social-icon img {
-    width: 30px;
-    cursor: pointer;
+.left button:hover{
+    background-color: #f3f3f3;
 }
 
-.login-form label {
+.right{
+    background-color: #0000000a;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 15px 15px 0;
+    position: relative;
+}
+
+.logar button{
+    color: #181515;
+    margin-bottom: 1rem;
+    margin-left: 20rem;
+    margin-bottom: 20rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #dad9d9;
+}
+
+.logar button:hover{
+    background-color: #f3f3f3;
+}
+
+img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50px;
+}
+
+.input{
+    width: 20rem;
+    border: none;
+    border-radius: 50px;
     display: flex;
     align-items: center;
-    margin-top: 1rem;
-    font-size: 14px;
-    width: 100%;
-}
+    flex-direction: column;
+    gap: 0.5rem;
 
-.login-form input[type="text"], .login-form input[type="password"] {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-right: 5px;
-    font-size: 16px;
+   
 }
-
-.toggle-visiblity {
-    cursor: pointer;
-}
-
-.enter {
-    margin-top: 1rem;
-    padding: 0.7rem 1.5rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
