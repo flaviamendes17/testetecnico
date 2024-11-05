@@ -116,6 +116,9 @@ left: 50%;
 
 .right h1{
     color: #000000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .logar{
@@ -131,6 +134,7 @@ left: 50%;
     border-radius: 50px;
     cursor: pointer;
     background-color: #dad9d9;
+    margin-bottom: 50px;
 }
 
 .logar button:hover{
